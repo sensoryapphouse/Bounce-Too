@@ -1,0 +1,224 @@
+html,
+div,
+body,
+canvas {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    z-index: 999;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: #AAA;
+    font-size: 12pt;
+    padding: 1em;
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: none;
+}
+
+#container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    text-align: center;
+    //  filter: sepia(1) hue-rotate(230deg) saturate(2); 
+}
+
+#game {
+    position: absolute;
+    top: 0vh;
+    left: 2vw;
+    width: 96vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    z-index: 999;
+    background-color: black;
+}
+
+splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/splash.jpg);
+    background-size: 100vw 100vh;
+    background-color: black;
+    opacity: 1.0;
+    z-index: 1002;
+    -webkit-app-region: no-drag;
+}
+
+panel {
+    position: absolute;
+    top: 0vh;
+    left: 150vw;
+    width: 25%;
+    height: 32%;
+    border-radius: 0vh;
+    border: inset;
+    outline: none;
+    background: url(images/panel.png);
+    background-size: 100% 100%;
+    opacity: .9;
+    z-index: 1005;
+    -webkit-app-region: no-drag;
+}
+
+settings {
+    position: absolute;
+    top: 2vh;
+    left: 92vw;
+    width: 5vw;
+    height: 6vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/settings.png);
+    background-size: 5vw 6vh;
+    opacity: 0.9;
+    z-index: 1010;
+    -webkit-app-region: no-drag;
+}
+
+home {
+    position: absolute;
+    top: 1vh;
+    left: -10vw;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/home.png);
+    background-color: 'white';
+    background-size: 5vw 5vw;
+    opacity: .8;
+    z-index: 1010;
+    -webkit-app-region: no-drag;
+}
+
+home:hover {
+    opacity: 1.0;
+}
+
+winner {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/winner.gif);
+    background-color: 'white';
+    background-size: 80vw 80vh;
+    opacity: 1;
+    z-index: 1200;
+    -webkit-app-region: no-drag;
+}
+
+button {
+    position: absolute;
+    top: 21.2vh;
+    left: 18.4vw;
+    width: 26vw;
+    height: 27vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/1.png);
+    background-color: #FFFFFF;
+    background-size: 26vw 27vh;
+    opacity: 0.7;
+    z-index: 1003;
+    -webkit-app-region: no-drag;
+}
+
+button:hover {
+    opacity: 1.0;
+}
+
+button1 {
+    position: absolute;
+    top: 21.2vh;
+    left: 59.5vw;
+    width: 26vw;
+    height: 27vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/2.png);
+    background-color: #FFFFFF;
+    background-size: 26vw 27vh;
+    opacity: 0.7;
+    z-index: 1003;
+    -webkit-app-region: no-drag;
+}
+
+button1:hover {
+
+    opacity: 1.0;
+}
+
+button2 {
+    position: absolute;
+    top: 55.5vh;
+    left: 18.4vw;
+    width: 26vw;
+    height: 27vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/3.png);
+    background-color: #FFFFFF;
+    background-size: 26vw 27vh;
+    opacity: 0.7;
+    z-index: 1003;
+    -webkit-app-region: no-drag;
+}
+
+button2:hover {
+    opacity: 1.0;
+}
+
+
+button3 {
+    position: absolute;
+    top: 55.5vh;
+    left: 59.5vw;
+    width: 26vw;
+    height: 27vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/4.png);
+    background-color: #FFFFFF;
+    background-size: 26vw 27vh;
+    opacity: 0.7;
+    z-index: 1003;
+    -webkit-app-region: no-drag;
+}
+
+button3:hover {
+    opacity: 1.0;
+}
